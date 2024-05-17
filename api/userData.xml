@@ -1,0 +1,52 @@
+<users>
+    <user>
+        <name>John Doe</name>
+        <email>johndoe@email.com</email>
+        <password>password123</password>
+        <address>123 Fake St.</address>
+        <phone>(123) 456-7890</phone>
+        <country>United States</country>
+        <state>California</state>
+        <zipcode>90210</zipcode>
+    </user>
+    <user>
+        <name>Jane Smith</name>
+        <email>janesmith@email.com</email>
+        <password>qwerty123</password>
+        <address>456 Real St.</address>
+        <phone>(456) 789-1011</phone>
+        <country>Canada</country>
+        <state>Ontario</state>
+        <zipcode>A1B 2C3</zipcode>
+    </user>
+    <user>
+        <name>Bob Johnson</name>
+        <email>bobjohnson@email.com</email>
+        <password>password1</password>
+        <address>789 Fake Ave.</address>
+        <phone>(789) 101-1112</phone>
+        <country>United Kingdom</country>
+        <state>England</state>
+        <zipcode>B32 4CD</zipcode>
+    </user>
+    <user>
+        <name>Sarah Lee</name>
+        <email>sarahlee@email.com</email>
+        <password>abc123</password>
+        <address>321 Imaginary Ln.</address>
+        <phone>(321) 555-6666</phone>
+        <country>Australia</country>
+        <state>Queensland</state>
+        <zipcode>4000</zipcode>
+    </user>
+    <user>
+        <name>Mike Brown</name>
+        <email>mikebrown@email.com</email>
+        <password>123456789</password>
+        <address>555 Fake Rd.</address>
+        <phone>(555) 555-5555</phone>
+        <country>Mexico</country>
+        <state>Jalisco</state>
+        <zipcode>34123</zipcode>
+    </user>
+</users>

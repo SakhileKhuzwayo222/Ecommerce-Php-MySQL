@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+   <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+
+  <!--nav bar-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py2 fixed-top">
+    <div class="container-fluid">
+      <img src="/assets/images/Screenshot_8-5-2024_44043_www.bing.com.jpeg" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-buttons" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+           
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+   
+
+  </nav> 
+
+<!--Checkout-->
+  <section class="my-5 py-5">
+    <div class="container text-center mt-3 pt-5">
+        <h2 class="font-weight-bold">Checkout</h2>
+        <hr class="mx-auto">
+    </div>
+
+    <div class="mx-auto container">
+        <form id="Checkout-form" action="/api/login.php" method="POST">
+            <div class="form-group checkout-small-element">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="checkout-name" placeholder="name" name="name" required>
+            </div>
+            <br>
+            <div class="form-group checkout-small-element">
+                <label for="username">Email:</label>
+                <input type="text" class="form-control" id="checkout-email" placeholder="email" name="email" required>
+            </div>
+            <br>
+            <div class="form-group checkout-small-element">
+                <label for="phone">Phone number</label>
+                <input type="tel" class="form-control" id="checkout-phone" placeholder="phone" name="email" required>
+            </div>
+            <br>
+            <div class="form-group checkout-small-element">
+                <label for="city">City</label>
+                <input type="text" class="form-control" placeholder="" id="checkout-city" name="city" required>
+            </div>
+            <br>
+            <div class="form-group checkout-large-element">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" placeholder="" id="checkout-address" name="address" required>
+            </div>
+            </div>
+            <br>
+            <div class="form-group checkout-btn-container">
+                 <input type="submit" class="btn" id="checkout-btn" value="Checkout">
+            </div>
+
+        </form>
+    </div>
+</section>
+
+
+<!--Footer-->
+  <footer class="mt-5 py-5">
+    <div class="row container mx-auto pt-5">
+      <div class=" footer-one col-lg-3 col-md-6 col-sm-12">
+        <img class="logo" src="/assets/images/Screenshot_8-5-2024_44043_www.bing.com.jpeg" alt="logo">
+        <p> Past times offers the best products for the most affordable prices</p>
+      </div>
+  
+      <div class=" footer two col-lg-3 col-md-6 col-sm-12">
+        <h5 class="pb-2">Featured</h5>
+        <ul class="text-uppercase">
+          <li><a href="">men</a></li>
+          <li><a href="">women</a></li>
+          <li><a href="">boys</a></li>
+          <li><a href="">girls</a></li>
+          <li><a href="">new arrivals</a></li>
+          <li><a href="">clothes</a></li>
+        </ul>
+      </div>
+  
+      <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+        <h5 class="pb-2">Contact us</h5>
+        <div>
+          <h6 class="text-uppercase">Address</h6>
+          <p>1234 Street Name, City Name</p>
+          </div>
+        <div>
+          <h6 class="text-uppercae">Phone</h6>
+          <p> 031 456 6196</p>
+        </div>
+        <div>
+          <h6 class="text-uppercae">Email</h6>
+          <p> 031 456 6196</p>
+        </div>
+        <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+          <h5 class="pb-2">Social links</h5>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="copyright mt-5">
+      <div class="row container mx-auto">
+        <div class="col-lg-3 col-md-5 col-sm-12 mb-4 text-nowrap">
+          <p> &copy; 2024 Past Times Ecommerce. All rights reserved</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  </html>
